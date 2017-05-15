@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000; }
+
+ul, ol {
+  list-style-type: none; }
+
+a {
+  text-decoration: none; }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+body {
+  max-width: 1300px;
+  margin: 0 auto; }
+  body .container, body header {
+    margin: 0 60px;
+    max-width: 1180px;
+    font-size: 0; }
+  body header {
+    padding-top: 30px;
+    height: 120px; }
+    body header .top_left {
+      max-width: 915px;
+      float: left; }
+    body header h1 {
+      font-size: 30px; }
+    body header .top_left, body header .top_right, body header .top_menu li {
+      width: 100%; }
+    body header .top_menu {
+      margin: 25px 0; }
+      body header .top_menu li {
+        display: inline-block;
+        max-width: 110px; }
+      body header .top_menu a {
+        display: block;
+        font-size: 14px; }
+    body header .top_right {
+      max-width: 265px;
+      display: inline-block;
+      float: right; }
+      body header .top_right .sing_up {
+        float: left;
+        font-size: 14px; }
+      body header .top_right .bag {
+        float: right;
+        display: inline-block;
+        padding-left: 30px;
+        max-width: 130px;
+        border: none;
+        background-color: inherit; }
+    body header input {
+      border: none;
+      border-bottom: 1px solid grey;
+      display: block;
+      float: right;
+      margin: 40px 0 15px;
+      max-width: 120px;
+      padding-bottom: 10px;
+      color: grey;
+      clear: both; }
+
+/*# sourceMappingURL=main.css.map */
