@@ -68,16 +68,15 @@ body {
       color: grey;
       clear: both; }
   body .black_white {
+    position: relative;
     background-image: url("/site3/img/main_start.jpg");
-    background-size: cover; }
+    background-size: cover;
+    min-height: 850px; }
     body .black_white .container {
-      position: relative;
-      min-height: 850px;
-      margin: 0 auto; }
+      width: 100%;
+      margin: 0 auto;
+      padding-top: 120px; }
       body .black_white .container .main_bw {
-        position: absolute;
-        top: 120px;
-        left: 33%;
         font-size: 12px;
         padding: 60px;
         width: 100%;
