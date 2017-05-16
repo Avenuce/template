@@ -111,7 +111,6 @@ body {
         body .black_white .container .main_slide span:hover {
           background-color: red; }
   body .arrivals {
-    max-width: 1300px;
     font-size: 16px;
     border-top: 1px solid grey; }
     body .arrivals .container h3, body .arrivals .container p {
@@ -145,5 +144,31 @@ body {
     body .arrivals .container .right_arr {
       float: right;
       background-image: url("/site3/img/right_arr.jpg"); }
+  body .all_arrivals .container {
+    font-size: 14px;
+    text-align: center; }
+  body .all_arrivals .arr_list {
+    width: 100%; }
+    body .all_arrivals .arr_list li {
+      display: inline-block;
+      float: left;
+      width: 25%;
+      maigin-right: 70px; }
+    body .all_arrivals .arr_list li:last {
+      margin-right: 0; }
+    body .all_arrivals .arr_list p {
+      font-style: italic; }
+    body .all_arrivals .arr_list img {
+      width: 100%;
+      max-width: 240px; }
+    body .all_arrivals .arr_list h4 {
+      margin: 50px 0 20px; }
+  body .all_arrivals .arr_btn {
+    font-size: 26px;
+    margin: 80px auto;
+    background: inherit;
+    padding: 25px 100px;
+    border: 1px solid grey;
+    border-radius: 1px; }
 
 /*# sourceMappingURL=main.css.map */
