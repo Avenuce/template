@@ -29,7 +29,7 @@ body
 			float: left
 		h1
 			font-size: 30px
-		.top_left, .top_right, .top_menu li
+		.top_left, .top_right, .top_menu li, .arrivals
 			width: 100%
 		.top_menu
 			margin: 25px 0
@@ -97,6 +97,7 @@ body
 				position: absolute
 				width: 100%
 				bottom: 0
+				left: 0
 				span
 					cursor: pointer
 					background-color: grey
@@ -105,6 +106,48 @@ body
 					padding: 5px
 				span:hover
 					background-color: red
+	.arrivals
+		max-width: 1300px
+		font-size: 16px
+		border-top: 1px solid grey
+		.container
+			h3, p
+				position: absolute
+			h3
+				font-size: 30px
+				position: absolute
+				top: 70px
+				right: 80px
+			p
+				font-size: 16px
+				color: grey
+				font-style: italic
+				top: 110px
+				right: 125px
+			h2
+				font-size: 60px
+				margin: 0 auto
+				padding: 140px 0 100px
+				clear: both
+				text-align: center
+			.left_arr, .right_arr
+				min-height: 385px
+				width: 50%
+				display: inline-block
+				background-size: cover
+				position: relative
+			.left_arr
+				float: left
+				background-image: url('/site3/img/left_arr.jpg')
+			.right_arr
+				float: right
+				background-image: url('/site3/img/right_arr.jpg')
+
+
+
+
+
+
 
 
 
