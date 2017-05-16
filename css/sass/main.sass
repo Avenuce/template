@@ -64,22 +64,20 @@ body
 			color: grey
 			clear: both
 	.black_white
-		position: relative
-		background-image: url("/site3/img/main_start.jpg")
-		background-size: cover
-		min-height: 850px
 		.container
+			position: relative
 			width: 100%
 			margin: 0 auto
-			padding-top: 120px
 			.main_bw
 				font-size: 12px
-				padding: 60px
+				padding: 5%
 				width: 100%
 				max-width: 385px
-				margin: 0 auto
 				text-align: center
 				background-color: #fff
+				position: absolute
+				top: 120px
+				left: 35%
 				h2
 					font-size: 110px
 					color: red
@@ -106,10 +104,19 @@ body
 					padding: 5px
 				span:hover
 					background-color: red
+			#slider
+				position: relative
+				img
+					width: 100%
+			.slide
+				position: absolude
+				display: none
+			.active
+				display: block
 	.arrivals
 		font-size: 16px
-		border-top: 1px solid grey
 		.container
+			border-top: 1px solid grey
 			h3, p
 				position: absolute
 			h3
