@@ -56,17 +56,24 @@ body {
         padding-left: 30px;
         max-width: 130px;
         border: none;
-        background-color: inherit; }
+        background-color: inherit;
+        background-image: url("../site3/img/sprite.png");
+        background-repeat: no-repeat;
+        background-position: 10px -65px; }
     body header input {
       border: none;
-      border-bottom: 1px solid grey;
+      border-bottom: 1px solid #ececec;
       display: block;
       float: right;
       margin: 40px 0 15px;
       max-width: 120px;
       padding-bottom: 10px;
       color: grey;
-      clear: both; }
+      clear: both;
+      background-image: url("../site3/img/sprite.png");
+      background-repeat: no-repeat;
+      background-position: 95px 0px;
+      background-size: 25px; }
   body .black_white .container {
     position: relative;
     width: 100%;
@@ -94,14 +101,14 @@ body {
       margin: 0 auto;
       text-align: center;
       padding: 35px;
-      border-top: 1px solid grey;
+      border-top: 1px solid #ececec;
       position: absolute;
       width: 100%;
       bottom: 0;
       left: 0; }
       body .black_white .container .main_slide span {
         cursor: pointer;
-        background-color: grey;
+        background-color: #ececec;
         border-radius: 50%;
         margin: 5px;
         padding: 5px; }
@@ -119,7 +126,7 @@ body {
   body .arrivals {
     font-size: 16px; }
     body .arrivals .container {
-      border-top: 1px solid grey; }
+      border-top: 1px solid #ececec; }
       body .arrivals .container h3, body .arrivals .container p {
         position: absolute; }
       body .arrivals .container h3 {
@@ -140,17 +147,12 @@ body {
         clear: both;
         text-align: center; }
       body .arrivals .container .left_arr, body .arrivals .container .right_arr {
-        min-height: 385px;
         width: 50%;
-        display: inline-block;
-        background-size: cover;
-        position: relative; }
-      body .arrivals .container .left_arr {
         float: left;
-        background-image: url("/site3/img/left_arr.jpg"); }
-      body .arrivals .container .right_arr {
-        float: right;
-        background-image: url("/site3/img/right_arr.jpg"); }
+        display: inline-block;
+        position: relative; }
+      body .arrivals .container img {
+        width: 100%; }
   body .all_arrivals {
     border-bottom: 1px solid grey; }
     body .all_arrivals .container {
