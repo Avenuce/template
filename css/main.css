@@ -39,7 +39,8 @@ body {
       margin: 25px 0; }
       body header .top_menu li {
         display: inline-block;
-        max-width: 110px; }
+        max-width: 110px;
+        font-weight: bold; }
       body header .top_menu a {
         display: block;
         font-size: 14px; }
@@ -57,9 +58,9 @@ body {
         max-width: 130px;
         border: none;
         background-color: inherit;
-        background-image: url("../site3/img/sprite.png");
+        background-image: url("d:/site3/img/sprite.png");
         background-repeat: no-repeat;
-        background-position: 10px -65px; }
+        background-position: -34px -31px; }
     body header input {
       border: none;
       border-bottom: 1px solid #ececec;
@@ -70,10 +71,9 @@ body {
       padding-bottom: 10px;
       color: grey;
       clear: both;
-      background-image: url("../site3/img/sprite.png");
+      background-image: url("d:/site3/img/sprite.png");
       background-repeat: no-repeat;
-      background-position: 95px 0px;
-      background-size: 25px; }
+      background-position: 95px -30px; }
   body .black_white .container {
     width: 100%;
     margin: 0 auto;
@@ -121,7 +121,6 @@ body {
       body .black_white .container #slider img {
         width: 100%; }
     body .black_white .container .slide {
-      position: absolude;
       display: none; }
     body .black_white .container .active {
       display: block; }
@@ -210,6 +209,13 @@ body {
         body .foot_contacts .container .links .contacts, body .foot_contacts .container .contacts .contacts {
           display: block;
           padding-left: 60px; }
+        body .foot_contacts .container .links .foot_icons, body .foot_contacts .container .contacts .foot_icons {
+          display: block;
+          background-image: url("d:/site3/img/sprite.png");
+          background-repeat: no-repeat;
+          background-position: 0 0;
+          padding: 10px;
+          margin-top: 40px; }
         body .foot_contacts .container .links .contacts_l, body .foot_contacts .container .links .contacts_r, body .foot_contacts .container .contacts .contacts_l, body .foot_contacts .container .contacts .contacts_r {
           width: 100%;
           max-width: 265px;
@@ -225,6 +231,11 @@ body {
           max-width: 265px;
           padding-top: 80px;
           line-height: 30px; }
+        body .foot_contacts .container .links .contacts_l p, body .foot_contacts .container .contacts .contacts_l p {
+          background-image: url("d:/site3/img/sprite.png");
+          background-repeat: no-repeat;
+          background-position: -5px -47px;
+          padding-left: 15px; }
   body footer .container {
     padding: 30px 0 35px;
     font-size: 12px;

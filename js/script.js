@@ -4,6 +4,6 @@ window.onload = function (){
      imgs[i].classList.remove('active')
      i = ++i % len;
      imgs[i].classList.add('active');
-     window.setTimeout(go, 1000)
+     window.setTimeout(go, 6000)
   })()
 }
