@@ -102,7 +102,8 @@ body {
     body .black_white .container .main_box:hover {
       opacity: 0.3; }
     body .black_white .container .main_slide {
-      font-size: 12px;
+      background-color: #f7f7f7;
+      font-size: 16px;
       position: relative; }
       body .black_white .container .main_slide .main_bw {
         font-size: 12px;
@@ -123,21 +124,28 @@ body {
           width: 65px;
           margin: 0 10px;
           border: 4px solid red; }
+      body .black_white .container .main_slide .sec1 h3 {
+        font-size: 30px;
+        padding-bottom: 15px; }
+      body .black_white .container .main_slide .sec1 p {
+        font-size: 16px;
+        font-style: italic; }
       body .black_white .container .main_slide .slide_1 {
-        width: 50%;
+        width: 67%;
         display: inline-block;
         float: left;
         position: relative; }
         body .black_white .container .main_slide .slide_1 .main_bw1 {
           position: absolute;
-          top: 0;
+          top: 60px;
           right: 0;
           width: 100%;
-          padding-right: 40px;
-          padding-top: 40px;
+          padding-right: 80px;
           text-align: right; }
+          body .black_white .container .main_slide .slide_1 .main_bw1 p {
+            padding-right: 20px; }
       body .black_white .container .main_slide .slide_2 {
-        width: 25%;
+        width: 33%;
         display: inline-block;
         float: left;
         position: relative; }
@@ -147,10 +155,57 @@ body {
           bottom: 40px;
           text-align: center;
           width: 100%; }
-      body .black_white .container .main_slide .slide_3 {
-        width: 25%;
+      body .black_white .container .main_slide .slide_4 {
+        width: 34%;
         display: inline-block;
-        float: left; }
+        float: left;
+        position: relative; }
+        body .black_white .container .main_slide .slide_4 .main_bw4 {
+          position: absolute;
+          left: 0;
+          bottom: 50px;
+          width: 100%;
+          text-align: center; }
+      body .black_white .container .main_slide .slide_5 {
+        width: 33%;
+        display: inline-block;
+        float: left;
+        position: relative; }
+        body .black_white .container .main_slide .slide_5 .main_bw5 {
+          position: absolute;
+          left: 0;
+          bottom: 50px;
+          width: 100%;
+          text-align: center; }
+      body .black_white .container .main_slide .slide_6 {
+        width: 33%;
+        display: inline-block;
+        float: left;
+        position: relative; }
+        body .black_white .container .main_slide .slide_6 .main_bw6 {
+          position: absolute;
+          left: 0;
+          bottom: 50px;
+          width: 100%;
+          text-align: center; }
+    body .black_white .container .left_slide {
+      float: left;
+      display: inline-block;
+      width: 75%; }
+    body .black_white .container .right_slide {
+      float: right;
+      display: inline-block;
+      width: 25%; }
+      body .black_white .container .right_slide .slide_3 {
+        width: 100%;
+        display: inline-block;
+        position: relative; }
+        body .black_white .container .right_slide .slide_3 .main_bw3 {
+          position: absolute;
+          left: 0;
+          bottom: 50px;
+          width: 100%;
+          text-align: center; }
     body .black_white .container #slider {
       position: relative; }
       body .black_white .container #slider img {
@@ -163,8 +218,7 @@ body {
     font-size: 16px;
     position: relative; }
     body .arrivals .container {
-      margin: 0 auto;
-      border-top: 1px solid #ececec; }
+      margin: 0 auto; }
       body .arrivals .container h3, body .arrivals .container p {
         position: absolute; }
       body .arrivals .container h3 {
