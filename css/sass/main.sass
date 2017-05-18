@@ -73,6 +73,7 @@ body
 			background-position: 95px -30px
 	.black_white
 		.container
+			max-height: 850px
 			width: 100%
 			margin: 0 auto
 			max-width: 1300px
@@ -80,7 +81,7 @@ body
 			.main_box
 				margin: 0 auto
 				text-align: center
-				padding: 35px
+				padding: 40px
 				border-top: 1px solid #ececec
 				position: absolute
 				width: 100%
@@ -128,16 +129,22 @@ body
 					p
 						font-size: 16px
 						font-style: italic 
+				.slide_1, .slide_2, .slide_3, .slide_4, .slide_5, .slide_r
+					position: relative
+					float: left
+					display: inline-block
+					width: 33%
+					img
+						width: 100%
+				.main_bw1, .main_bw2, .main_bw3, .main_bw4, .main_bw5, .main_bwr
+					position: absolute
+					right: 0
+					width: 100%
+					text-align: center
 				.slide_1
 					width: 67%
-					display: inline-block
-					float: left
-					position: relative
 					.main_bw1
-						position: absolute
 						top: 60px
-						right: 0
-						width: 100%
 						padding-right: 80px
 						text-align: right
 						p
@@ -148,44 +155,17 @@ body
 					float: left
 					position: relative
 					.main_bw2
-						position: absolute
-						left: 0
 						bottom: 40px
-						text-align: center
-						width: 100%
-				.slide_4
+				.slide_3
 					width: 34%
-					display: inline-block
-					float: left
-					position: relative
+					.main_bw3
+						bottom: 50px
+				.slide_4
 					.main_bw4
-						position: absolute
-						left: 0
 						bottom: 50px
-						width: 100%
-						text-align: center
 				.slide_5
-					width: 33%
-					display: inline-block
-					float: left
-					position: relative
 					.main_bw5
-						position: absolute
-						left: 0
 						bottom: 50px
-						width: 100%
-						text-align: center
-				.slide_6
-					width: 33%
-					display: inline-block
-					float: left
-					position: relative
-					.main_bw6
-						position: absolute
-						left: 0
-						bottom: 50px
-						width: 100%
-						text-align: center
 			.left_slide
 				float: left
 				display: inline-block
@@ -194,16 +174,14 @@ body
 				float: right
 				display: inline-block
 				width: 25%
-				.slide_3
+				.slide_r
 					width: 100%
-					display: inline-block
-					position: relative
-					.main_bw3
-						position: absolute
-						left: 0
+					.main_bwr
 						bottom: 50px
-						width: 100%
-						text-align: center				
+						width: 100%				
+			.bottom_slide
+				padding: 40px
+				clear: both
 			#slider
 				position: relative
 				img
@@ -212,6 +190,7 @@ body
 				display: none
 			.active
 				display: block
+				clear: both
 	.arrivals
 		font-size: 16px
 		position: relative

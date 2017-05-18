@@ -76,6 +76,7 @@ body {
       background-repeat: no-repeat;
       background-position: 95px -30px; }
   body .black_white .container {
+    max-height: 850px;
     width: 100%;
     margin: 0 auto;
     max-width: 1300px;
@@ -83,7 +84,7 @@ body {
     body .black_white .container .main_box {
       margin: 0 auto;
       text-align: center;
-      padding: 35px;
+      padding: 40px;
       border-top: 1px solid #ececec;
       position: absolute;
       width: 100%;
@@ -130,16 +131,22 @@ body {
       body .black_white .container .main_slide .sec1 p {
         font-size: 16px;
         font-style: italic; }
-      body .black_white .container .main_slide .slide_1 {
-        width: 67%;
-        display: inline-block;
+      body .black_white .container .main_slide .slide_1, body .black_white .container .main_slide .slide_2, body .black_white .container .main_slide .slide_3, body .black_white .container .main_slide .slide_4, body .black_white .container .main_slide .slide_5, body .black_white .container .main_slide .slide_r {
+        position: relative;
         float: left;
-        position: relative; }
+        display: inline-block;
+        width: 33%; }
+        body .black_white .container .main_slide .slide_1 img, body .black_white .container .main_slide .slide_2 img, body .black_white .container .main_slide .slide_3 img, body .black_white .container .main_slide .slide_4 img, body .black_white .container .main_slide .slide_5 img, body .black_white .container .main_slide .slide_r img {
+          width: 100%; }
+      body .black_white .container .main_slide .main_bw1, body .black_white .container .main_slide .main_bw2, body .black_white .container .main_slide .main_bw3, body .black_white .container .main_slide .main_bw4, body .black_white .container .main_slide .main_bw5, body .black_white .container .main_slide .main_bwr {
+        position: absolute;
+        right: 0;
+        width: 100%;
+        text-align: center; }
+      body .black_white .container .main_slide .slide_1 {
+        width: 67%; }
         body .black_white .container .main_slide .slide_1 .main_bw1 {
-          position: absolute;
           top: 60px;
-          right: 0;
-          width: 100%;
           padding-right: 80px;
           text-align: right; }
           body .black_white .container .main_slide .slide_1 .main_bw1 p {
@@ -150,44 +157,15 @@ body {
         float: left;
         position: relative; }
         body .black_white .container .main_slide .slide_2 .main_bw2 {
-          position: absolute;
-          left: 0;
-          bottom: 40px;
-          text-align: center;
-          width: 100%; }
-      body .black_white .container .main_slide .slide_4 {
-        width: 34%;
-        display: inline-block;
-        float: left;
-        position: relative; }
-        body .black_white .container .main_slide .slide_4 .main_bw4 {
-          position: absolute;
-          left: 0;
-          bottom: 50px;
-          width: 100%;
-          text-align: center; }
-      body .black_white .container .main_slide .slide_5 {
-        width: 33%;
-        display: inline-block;
-        float: left;
-        position: relative; }
-        body .black_white .container .main_slide .slide_5 .main_bw5 {
-          position: absolute;
-          left: 0;
-          bottom: 50px;
-          width: 100%;
-          text-align: center; }
-      body .black_white .container .main_slide .slide_6 {
-        width: 33%;
-        display: inline-block;
-        float: left;
-        position: relative; }
-        body .black_white .container .main_slide .slide_6 .main_bw6 {
-          position: absolute;
-          left: 0;
-          bottom: 50px;
-          width: 100%;
-          text-align: center; }
+          bottom: 40px; }
+      body .black_white .container .main_slide .slide_3 {
+        width: 34%; }
+        body .black_white .container .main_slide .slide_3 .main_bw3 {
+          bottom: 50px; }
+      body .black_white .container .main_slide .slide_4 .main_bw4 {
+        bottom: 50px; }
+      body .black_white .container .main_slide .slide_5 .main_bw5 {
+        bottom: 50px; }
     body .black_white .container .left_slide {
       float: left;
       display: inline-block;
@@ -196,16 +174,14 @@ body {
       float: right;
       display: inline-block;
       width: 25%; }
-      body .black_white .container .right_slide .slide_3 {
-        width: 100%;
-        display: inline-block;
-        position: relative; }
-        body .black_white .container .right_slide .slide_3 .main_bw3 {
-          position: absolute;
-          left: 0;
+      body .black_white .container .right_slide .slide_r {
+        width: 100%; }
+        body .black_white .container .right_slide .slide_r .main_bwr {
           bottom: 50px;
-          width: 100%;
-          text-align: center; }
+          width: 100%; }
+    body .black_white .container .bottom_slide {
+      padding: 40px;
+      clear: both; }
     body .black_white .container #slider {
       position: relative; }
       body .black_white .container #slider img {
@@ -213,7 +189,8 @@ body {
     body .black_white .container .slide {
       display: none; }
     body .black_white .container .active {
-      display: block; }
+      display: block;
+      clear: both; }
   body .arrivals {
     font-size: 16px;
     position: relative; }
