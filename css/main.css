@@ -22,29 +22,27 @@ body {
   max-width: 1300px;
   margin: 0 auto; }
   body .container, body header {
-    margin: 0 60px;
+    margin: 0 auto;
     max-width: 1180px;
     font-size: 0; }
   body header {
     padding-top: 30px;
-    height: 120px;
-    position: relative; }
+    height: 120px; }
     body header .top_left {
       max-width: 915px;
       float: left; }
     body header h1 {
-      font-size: 30px; }
+      font-size: 30px;
+      margin-bottom: 25px; }
     body header .top_left, body header .top_right, body header .top_menu li, body header .arrivals {
       width: 100%; }
-    body header .top_menu {
-      margin: 25px 0; }
-      body header .top_menu li {
-        display: inline-block;
-        max-width: 110px;
-        font-weight: bold; }
-      body header .top_menu a {
-        display: block;
-        font-size: 14px; }
+    body header .top_menu li {
+      display: inline-block;
+      max-width: 110px;
+      font-weight: bold; }
+    body header .top_menu a {
+      display: block;
+      font-size: 14px; }
     body header .top_right {
       max-width: 265px;
       display: inline-block;
@@ -67,7 +65,7 @@ body {
       border-bottom: 1px solid #ececec;
       display: block;
       float: right;
-      margin: 40px 0 15px;
+      margin-top: 40px;
       max-width: 120px;
       padding-bottom: 10px;
       color: grey;
@@ -76,9 +74,7 @@ body {
       background-repeat: no-repeat;
       background-position: 95px -30px; }
   body .black_white .container {
-    max-height: 850px;
     width: 100%;
-    margin: 0 auto;
     max-width: 1300px;
     position: relative; }
     body .black_white .container .main_box {
@@ -103,7 +99,6 @@ body {
     body .black_white .container .main_box:hover {
       opacity: 0.3; }
     body .black_white .container .main_slide {
-      background-color: #f7f7f7;
       font-size: 16px;
       position: relative; }
       body .black_white .container .main_slide .main_bw {
@@ -177,15 +172,18 @@ body {
       body .black_white .container .right_slide .slide_r {
         width: 100%; }
         body .black_white .container .right_slide .slide_r .main_bwr {
-          bottom: 50px;
+          top: 60px;
           width: 100%; }
     body .black_white .container .bottom_slide {
-      padding: 40px;
-      clear: both; }
+      width: 100%;
+      clear: both;
+      padding: 40px 0;
+      position: relative; }
     body .black_white .container #slider {
       position: relative; }
       body .black_white .container #slider img {
-        width: 100%; }
+        width: 100%;
+        float: left; }
     body .black_white .container .slide {
       display: none; }
     body .black_white .container .active {
@@ -194,34 +192,32 @@ body {
   body .arrivals {
     font-size: 16px;
     position: relative; }
-    body .arrivals .container {
-      margin: 0 auto; }
-      body .arrivals .container h3, body .arrivals .container p {
-        position: absolute; }
-      body .arrivals .container h3 {
-        font-size: 30px;
-        position: absolute;
-        top: 70px;
-        right: 80px; }
-      body .arrivals .container p {
-        font-size: 16px;
-        color: grey;
-        font-style: italic;
-        top: 110px;
-        right: 125px; }
-      body .arrivals .container h2 {
-        font-size: 60px;
-        margin: 0 auto;
-        padding: 140px 0 100px;
-        clear: both;
-        text-align: center; }
-      body .arrivals .container .left_arr, body .arrivals .container .right_arr {
-        width: 50%;
-        float: left;
-        display: inline-block;
-        position: relative; }
-      body .arrivals .container img {
-        width: 100%; }
+    body .arrivals .container h3, body .arrivals .container p {
+      position: absolute; }
+    body .arrivals .container h3 {
+      font-size: 30px;
+      position: absolute;
+      top: 70px;
+      right: 80px; }
+    body .arrivals .container p {
+      font-size: 16px;
+      color: grey;
+      font-style: italic;
+      top: 110px;
+      right: 125px; }
+    body .arrivals .container h2 {
+      font-size: 60px;
+      margin: 0 auto;
+      padding: 140px 0 100px;
+      clear: both;
+      text-align: center; }
+    body .arrivals .container .left_arr, body .arrivals .container .right_arr {
+      width: 50%;
+      float: left;
+      display: inline-block;
+      position: relative; }
+    body .arrivals .container img {
+      width: 100%; }
   body .all_arrivals {
     border-bottom: 1px solid grey; }
     body .all_arrivals .container {
