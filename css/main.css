@@ -67,7 +67,7 @@ body {
       margin-top: 40px;
       max-width: 120px;
       padding-bottom: 10px;
-      color: grey;
+      color: #ececec;
       clear: both;
       background-image: url("d:/site3/img/sprite.png");
       background-repeat: no-repeat;
@@ -201,7 +201,7 @@ body {
       right: 80px; }
     body .arrivals .container p {
       font-size: 16px;
-      color: grey;
+      color: #ecece;
       font-style: italic;
       top: 110px;
       right: 125px; }
@@ -219,7 +219,7 @@ body {
     body .arrivals .container img {
       width: 100%; }
   body .all_arrivals {
-    border-bottom: 1px solid grey; }
+    border-bottom: 1px solid #ececec; }
     body .all_arrivals .container {
       font-size: 14px;
       text-align: center; }
@@ -244,13 +244,13 @@ body {
       margin: 80px auto;
       background: inherit;
       padding: 25px 100px;
-      border: 1px solid grey;
+      border: 1px solid #ececec;
       border-radius: 2px; }
   body .foot_contacts {
-    border-bottom: 1px solid grey; }
+    border-bottom: 1px solid #ececec; }
     body .foot_contacts .container {
       font-size: 14px;
-      color: grey;
+      color: #ececec;
       padding: 55px 0 110px; }
       body .foot_contacts .container .links, body .foot_contacts .container .contacts {
         display: inline-block;
@@ -299,7 +299,7 @@ body {
         body .foot_contacts .container .links p, body .foot_contacts .container .contacts p {
           clear: both;
           font-style: italic;
-          color: grey;
+          color: #ececec;
           font-size: 16px;
           max-width: 265px;
           padding-top: 80px;
