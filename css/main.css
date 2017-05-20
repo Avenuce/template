@@ -23,7 +23,6 @@ body {
   margin: 0 auto; }
   body .container, body header {
     margin: 0 auto;
-    max-width: 1180px;
     font-size: 0; }
   body header {
     padding-top: 30px;
@@ -75,7 +74,6 @@ body {
       background-position: 95px -30px; }
   body .black_white .container {
     width: 100%;
-    max-width: 1300px;
     position: relative; }
     body .black_white .container .main_box {
       margin: 0 auto;
@@ -103,23 +101,24 @@ body {
       position: relative; }
       body .black_white .container .main_slide .main_bw {
         font-size: 12px;
-        padding: 5%;
         width: 100%;
-        max-width: 385px;
         text-align: center;
-        background-color: #fff;
         position: absolute;
-        top: 120px;
-        left: 35%; }
+        top: 0;
+        left: 0; }
         body .black_white .container .main_slide .main_bw h2 {
           font-size: 110px;
           color: red;
-          margin: 60px 0 120px; }
+          margin: 5% 0 15%; }
         body .black_white .container .main_slide .main_bw span {
           display: inline-block;
           width: 65px;
           margin: 0 10px;
           border: 4px solid red; }
+        body .black_white .container .main_slide .main_bw .centerblock {
+          background-color: #fff;
+          margin: 10% 32%;
+          padding: 3% 0; }
       body .black_white .container .main_slide .sec1 h3 {
         font-size: 30px;
         padding-bottom: 15px; }
@@ -191,7 +190,8 @@ body {
       clear: both; }
   body .arrivals {
     font-size: 16px;
-    position: relative; }
+    position: relative;
+    border-top: 1px solid #ececec; }
     body .arrivals .container h3, body .arrivals .container p {
       position: absolute; }
     body .arrivals .container h3 {
@@ -247,8 +247,7 @@ body {
       border: 1px solid grey;
       border-radius: 2px; }
   body .foot_contacts {
-    border-bottom: 1px solid grey;
-    max-width: 1300px; }
+    border-bottom: 1px solid grey; }
     body .foot_contacts .container {
       font-size: 14px;
       color: grey;
@@ -274,11 +273,22 @@ body {
           padding-left: 60px; }
         body .foot_contacts .container .links .foot_icons, body .foot_contacts .container .contacts .foot_icons {
           display: block;
-          background-image: url("d:/site3/img/sprite.png");
-          background-repeat: no-repeat;
-          background-position: 0 0;
-          padding: 10px;
+          width: 50px;
+          height: 50px;
           margin-top: 40px; }
+          body .foot_contacts .container .links .foot_icons a, body .foot_contacts .container .contacts .foot_icons a {
+            display: inline-block;
+            width: 50%;
+            padding: 10px;
+            width: 20px;
+            height: 20px;
+            background-image: url("d:/site3/img/sprite.png");
+            background-repeat: no-repeat;
+            background-position: -35px 5px; }
+          body .foot_contacts .container .links .foot_icons a:first-child, body .foot_contacts .container .contacts .foot_icons a:first-child {
+            background-image: url("d:/site3/img/sprite.png");
+            background-repeat: no-repeat;
+            background-position: 0 3px; }
         body .foot_contacts .container .links .contacts_l, body .foot_contacts .container .links .contacts_r, body .foot_contacts .container .contacts .contacts_l, body .foot_contacts .container .contacts .contacts_r {
           width: 100%;
           max-width: 265px;
@@ -311,5 +321,26 @@ body {
   body footer p:first-child {
     text-align: left;
     font-weight: normal; }
+  body .product_filter {
+    width: 100%; }
+    body .product_filter li {
+      display: inline-block;
+      width: 15%;
+      padding: 20px 0;
+      font-size: 16px; }
+    body .product_filter li:hover {
+      background-color: #ececec;
+      color: red; }
+  body .all_arrivals li {
+    padding: 15px 0; }
+  body .all_arrivals .arr_title {
+    font-size: 26px;
+    padding: 80px 0 25px; }
+    body .all_arrivals .arr_title span {
+      color: #f14a58; }
+  body .all_arrivals .arr_subj {
+    font-size: 16px;
+    font-style: italic;
+    padding: 0 0 100px; }
 
 /*# sourceMappingURL=main.css.map */
