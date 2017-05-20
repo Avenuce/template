@@ -342,5 +342,39 @@ body {
     font-size: 16px;
     font-style: italic;
     padding: 0 0 100px; }
+  body .foot_nav a {
+    display: inline-block;
+    width: 25%; }
+  body .foot_nav a:first-child {
+    width: 50%; }
+  body .foot_nav .slide_1, body .foot_nav .slide_3, body .foot_nav .slide_4 {
+    width: 100%;
+    position: relative;
+    text-align: center; }
+  body .foot_nav img {
+    width: 100%; }
+  body .foot_nav .main_bw1, body .foot_nav .main_bw3, body .foot_nav .main_bw4 {
+    position: absolute;
+    bottom: 65px;
+    right: 0; }
+    body .foot_nav .main_bw1 h3, body .foot_nav .main_bw3 h3, body .foot_nav .main_bw4 h3 {
+      font-size: 30px;
+      font-weight: bold;
+      color: #fff; }
+    body .foot_nav .main_bw1 p, body .foot_nav .main_bw3 p, body .foot_nav .main_bw4 p {
+      font-size: 16px;
+      font-style: italic;
+      color: #fff; }
+  body .foot_nav .main_bw1 {
+    top: 65px;
+    right: 90px; }
+  body .foot_nav .main_bw3 {
+    right: 65px; }
+  body .foot_nav .main_bw4 {
+    left: 0; }
+    body .foot_nav .main_bw4 h3 {
+      color: #f14a58; }
+    body .foot_nav .main_bw4 p {
+      color: #000; }
 
 /*# sourceMappingURL=main.css.map */
