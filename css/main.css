@@ -239,13 +239,13 @@ body {
         max-width: 240px; }
       body .all_arrivals .arr_list h4 {
         margin: 50px 0 20px; }
-    body .all_arrivals .arr_btn {
-      font-size: 26px;
-      margin: 80px auto;
-      background: inherit;
-      padding: 25px 100px;
-      border: 1px solid #ececec;
-      border-radius: 2px; }
+  body .arr_btn {
+    font-size: 26px;
+    margin: 80px auto;
+    background: inherit;
+    padding: 25px 100px;
+    border: 1px solid #ececec;
+    border-radius: 2px; }
   body .foot_contacts {
     border-bottom: 1px solid #ececec; }
     body .foot_contacts .container {
@@ -379,5 +379,38 @@ body {
       color: #f14a58; }
     body .foot_nav .main_bw4 p {
       color: #000; }
+  body .shopping_bag h2 {
+    font-size: 30px;
+    padding: 35px 90px; }
+  body .shopping_bag .shopping_list li {
+    width: 50%;
+    float: left;
+    font-size: 12px;
+    padding-bottom: 30px; }
+  body .shopping_bag .shopping_list img {
+    float: left; }
+  body .shopping_bag .shopping_list .shopping_info {
+    width: 50%;
+    float: left;
+    padding: 5px 0 0 25px; }
+    body .shopping_bag .shopping_list .shopping_info li {
+      float: none;
+      padding: 5px; }
+      body .shopping_bag .shopping_list .shopping_info li button {
+        color: red;
+        border: none;
+        background: none;
+        font-weight: 14px;
+        padding-top: 25px;
+        font-weight: bold; }
+    body .shopping_bag .shopping_list .shopping_info li:first-child {
+      padding-bottom: 20px;
+      font-weight: bold; }
+  body .shopping_bag h3 {
+    font-size: 12px;
+    font-style: italic;
+    text-align: center; }
+  body .shopping_bag .arr_btn {
+    display: block; }
 
 /*# sourceMappingURL=main.css.map */
