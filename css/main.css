@@ -407,10 +407,12 @@ body {
       padding-bottom: 20px;
       font-weight: bold; }
   body .shopping_bag h3 {
+    margin: 30px 0;
     font-size: 12px;
     font-style: italic;
     text-align: center; }
   body .shopping_bag .arr_btn {
-    display: block; }
+    display: block;
+    margin: 0 auto; }
 
 /*# sourceMappingURL=main.css.map */
