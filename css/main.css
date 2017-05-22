@@ -21,9 +21,10 @@ a {
 body {
   max-width: 1300px;
   margin: 0 auto; }
-  body .container, body header {
+  body .container, body header, body footer {
     margin: 0 auto;
-    font-size: 0; }
+    font-size: 0;
+    padding: 0 60px; }
   body header {
     padding-top: 30px;
     height: 120px; }
@@ -190,8 +191,7 @@ body {
       clear: both; }
   body .arrivals {
     font-size: 16px;
-    position: relative;
-    border-top: 1px solid #ececec; }
+    position: relative; }
     body .arrivals .container h3, body .arrivals .container p {
       position: absolute; }
     body .arrivals .container h3 {
@@ -218,27 +218,25 @@ body {
       position: relative; }
     body .arrivals .container img {
       width: 100%; }
-  body .all_arrivals {
-    border-bottom: 1px solid #ececec; }
-    body .all_arrivals .container {
-      font-size: 14px;
-      text-align: center; }
-    body .all_arrivals .arr_list {
-      width: 100%; }
-      body .all_arrivals .arr_list li {
-        display: inline-block;
-        float: left;
-        width: 25%;
-        maigin-right: 70px; }
-      body .all_arrivals .arr_list li:last {
-        margin-right: 0; }
-      body .all_arrivals .arr_list p {
-        font-style: italic; }
-      body .all_arrivals .arr_list img {
-        width: 100%;
-        max-width: 240px; }
-      body .all_arrivals .arr_list h4 {
-        margin: 50px 0 20px; }
+  body .all_arrivals .container {
+    font-size: 14px;
+    text-align: center; }
+  body .all_arrivals .arr_list {
+    width: 100%; }
+    body .all_arrivals .arr_list li {
+      display: inline-block;
+      float: left;
+      width: 25%;
+      maigin-right: 70px; }
+    body .all_arrivals .arr_list li:last {
+      margin-right: 0; }
+    body .all_arrivals .arr_list p {
+      font-style: italic; }
+    body .all_arrivals .arr_list img {
+      width: 100%;
+      max-width: 240px; }
+    body .all_arrivals .arr_list h4 {
+      margin: 50px 0 20px; }
   body .arr_btn {
     font-size: 26px;
     margin: 80px auto;
@@ -251,7 +249,7 @@ body {
     body .foot_contacts .container {
       font-size: 14px;
       color: #ececec;
-      padding: 55px 0 110px; }
+      padding: 55px 60px 110px; }
       body .foot_contacts .container .links, body .foot_contacts .container .contacts {
         display: inline-block;
         float: left;
@@ -382,7 +380,9 @@ body {
     font-size: 12px;
     padding-bottom: 30px; }
   body .shopping_bag .shopping_list img {
-    float: left; }
+    float: left;
+    width: 100%;
+    max-width: 240px; }
   body .shopping_bag .shopping_list .shopping_info {
     width: 50%;
     float: left;
