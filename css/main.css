@@ -448,5 +448,19 @@ body {
       body .catalog .container .catalog_filters {
         font-size: 24px;
         text-transform: uppercase; }
+        body .catalog .container .catalog_filters p {
+          margin-top: 30px;
+          font-weight: bold;
+          font-style: normal; }
+        body .catalog .container .catalog_filters li {
+          display: inline-block;
+          border: 1px solid #ececec;
+          padding: 25px 30px;
+          margin: 0 30px; }
+        body .catalog .container .catalog_filters li:hover {
+          opacity: 0.5;
+          background-color: #66655e; }
+        body .catalog .container .catalog_filters .arr_btn {
+          margin: 160px auto; }
 
 /*# sourceMappingURL=main.css.map */
