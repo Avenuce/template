@@ -345,33 +345,33 @@ body {
     font-size: 16px;
     font-style: italic;
     padding: 0 0 100px; }
-  body .foot_nav a {
+  body .foot_nav .container a {
     display: inline-block;
     width: 25%; }
-  body .foot_nav a:first-child {
+  body .foot_nav .container a:first-child {
     width: 50%; }
-  body .foot_nav .slide_1, body .foot_nav .slide_3, body .foot_nav .slide_4 {
+  body .foot_nav .container .slide_1, body .foot_nav .container .slide_3, body .foot_nav .container .slide_4 {
     width: 100%;
     position: relative;
     text-align: center; }
-  body .foot_nav img {
+  body .foot_nav .container img {
     width: 100%; }
-  body .foot_nav .main_bw1, body .foot_nav .main_bw3, body .foot_nav .main_bw4 {
+  body .foot_nav .container .main_bw1, body .foot_nav .container .main_bw3, body .foot_nav .container .main_bw4 {
     position: absolute;
     bottom: 50px;
     right: 0;
     width: 100%; }
-    body .foot_nav .main_bw1 h3, body .foot_nav .main_bw3 h3, body .foot_nav .main_bw4 h3 {
+    body .foot_nav .container .main_bw1 h3, body .foot_nav .container .main_bw3 h3, body .foot_nav .container .main_bw4 h3 {
       font-size: 30px;
       font-weight: bold;
       color: #fff; }
-    body .foot_nav .main_bw1 p, body .foot_nav .main_bw3 p, body .foot_nav .main_bw4 p {
+    body .foot_nav .container .main_bw1 p, body .foot_nav .container .main_bw3 p, body .foot_nav .container .main_bw4 p {
       font-size: 16px;
       font-style: italic;
       color: #fff; }
-  body .foot_nav .main_bw4 h3 {
+  body .foot_nav .container .main_bw4 h3 {
     color: #f14a58; }
-  body .foot_nav .main_bw4 p {
+  body .foot_nav .container .main_bw4 p {
     color: #000; }
   body .shopping_bag h2 {
     font-size: 30px;
