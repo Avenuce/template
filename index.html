@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <title>Consultex</title>
 <link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="d:/site3/css/madia.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script type="text/javascript" src="../sidte3/js/script.js"></script>
 </head>
@@ -243,10 +244,18 @@
   go();
 </script>
 <script type="text/javascript">
-	var elem=document.getElementsByTagName('button');
-	elem.onclick = function handler() {
-		elem.style.display= 'none';
-	};
+var element = document.querySelectorAll('.arr_btn');
+var selectedTd;
+element.onclick = function(event) { // вешаем обработчкик
+  var target = event.target; // где был клик?
+if (target.tagName != 'td') return; // не на TD? тогда не интересует
+highlight(target); }// подсветить TD};
+function highlight(node) {
+  if (selectedTd) {  selectedTd[].classList.remove('highlight'); }
+  selectedTd = node;
+  selectedTd.classList.add('.contacts');
+}
+
 </script>
 </body>
 </html>
