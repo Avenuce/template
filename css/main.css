@@ -565,4 +565,11 @@ footer p:first-child {
   .foot_nav .container img {
     max-height: 290px;
   }
+  .shopping_bag .shopping_list .shopping_info {
+    width: 45%;
+  }
+  .shopping_bag h3 {
+    padding: 15px;
+    background-color: #ececec;
+  }
 }

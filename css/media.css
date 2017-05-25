@@ -1,6 +1,86 @@
-@media (min-width: 600px) and (max-width: 1300px) {
-	header input {
-		max-width: 50px;
-		border: none;
-	}
+@media (min-width: 768px) and (max-width: 1300px) {
+  header {
+    padding: 30px 40px 25px;
+  }
+  header input {
+    display: none;
+  }
+  .container, footer {
+    padding: 0 40px;
+  }
+  header .top_right {
+    max-width: 185px;
+  }
+  header .let_right {
+    width: 100%
+  }
+  header .top_menu li {
+    max-width: 85px;
+  }
+  .arrivals .container img {
+    height: 100%;
+    max-height: 255px;
+  }
+  .arrivals .container .left_arr {
+    width: 67%;
+    max-height: 255px;
+  }
+  .arrivals .container .right_arr {
+    width: 33%;
+    max-height: 255px;
+  }
+  .black_white .container .left_slide {
+    width: 66%
+  }
+  .black_white .container .right_slide {
+    width: 34%;
+  }
+  .black_white .container .main_slide .slide_1 {
+    width: 100%;
+  }
+  .all_arrivals .arr_list li {
+    width: 28%;
+    margin-right: 40px;
+  }
+  .all_arrivals .arr_list li:first-child{
+    display: none;
+  }
+  .all_arrivals .arr_list li:last-child{
+    margin-right: 0;
+  }
+ .foot_contacts .container .contacts > p {
+    display: none;
+  }
+  .foot_contacts .container .contacts .contacts_r {
+    margin-top: 30px;
+  }
+  .foot_contacts .container {
+    padding-bottom: 80px;
+  }
+  .arr_btn {
+    margin: 40px auto;
+  }
+  .arrivals .container h2 {
+    padding: 80px 0;
+  }
+  .all_arrivals .arr_title, .all_arrivals .arr_subj {
+    margin: 0 auto;
+    max-width: 500px;
+  }
+  .foot_nav .container a:last-child{
+    display: none;
+  }
+  .foot_nav .container a:first-child{
+    width: 75%;
+  }
+  .foot_nav .container img {
+    max-height: 290px;
+  }
+  .shopping_bag .shopping_list .shopping_info {
+    width: 45%;
+  }
+  .shopping_bag h3 {
+    padding: 15px;
+    background-color: #ececec;
+  }
 }
