@@ -528,7 +528,7 @@ footer p:first-child {
     width: 100%;
   }
   .all_arrivals .arr_list li {
-    width: 29%;
+    width: 28%;
     margin-right: 40px;
   }
   .all_arrivals .arr_list li:first-child{
@@ -551,5 +551,18 @@ footer p:first-child {
   }
   .arrivals .container h2 {
     padding: 80px 0;
+  }
+  .all_arrivals .arr_title, .all_arrivals .arr_subj {
+    margin: 0 auto;
+    max-width: 500px;
+  }
+  .foot_nav .container a:last-child{
+    display: none;
+  }
+  .foot_nav .container a:first-child{
+    width: 75%;
+  }
+  .foot_nav .container img {
+    max-height: 290px;
   }
 }
