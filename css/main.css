@@ -488,8 +488,23 @@ footer p:first-child {
 
 /*# sourceMappingURL=main.css.map */
 @media (min-width: 768px) and (max-width: 1300px) {
+  header {
+    padding: 30px 40px 25px;
+  }
   header input {
     display: none;
+  }
+  .container, footer {
+    padding: 0 40px;
+  }
+  header .top_right {
+    max-width: 185px;
+  }
+  header .let_right {
+    width: 100%
+  }
+  header .top_menu li {
+    max-width: 85px;
   }
   .arrivals .container img {
     height: 100%;
@@ -502,5 +517,39 @@ footer p:first-child {
   .arrivals .container .right_arr {
     width: 33%;
     max-height: 255px;
+  }
+  .black_white .container .left_slide {
+    width: 66%
+  }
+  .black_white .container .right_slide {
+    width: 34%;
+  }
+  .black_white .container .main_slide .slide_1 {
+    width: 100%;
+  }
+  .all_arrivals .arr_list li {
+    width: 29%;
+    margin-right: 40px;
+  }
+  .all_arrivals .arr_list li:first-child{
+    display: none;
+  }
+  .all_arrivals .arr_list li:last-child{
+    margin-right: 0;
+  }
+ .foot_contacts .container .contacts > p {
+    display: none;
+  }
+  .foot_contacts .container .contacts .contacts_r {
+    margin-top: 30px;
+  }
+  .foot_contacts .container {
+    padding-bottom: 80px;
+  }
+  .arr_btn {
+    margin: 40px auto;
+  }
+  .arrivals .container h2 {
+    padding: 80px 0;
   }
 }
