@@ -573,3 +573,62 @@ footer p:first-child {
     background-color: #ececec;
   }
 }
+@media (min-width: 375px) and (max-width: 768px) {
+  header {
+    padding: 40px 20px 25px;
+    height: 70px;
+  }
+  header .top_left, header .top_right {
+    display: none;
+  }
+  .arrivals .container .left_arr, .arrivals .container .right_arr {
+    display: none;
+  }
+  .arrivals .container .left_arr{
+    display: block;
+    width: 100%;
+  }
+  .arrivals .container .left_arr h3 {
+    font-size: 24px;
+    top: 40px;
+    right: 60px;
+  }
+  .arrivals .container .left_arr h3 {
+    top: 70px;
+    right: 95px;
+  }
+  .arrivals .container h2 {
+    padding: 65px 0;
+    font-size: 30px;
+  }
+  .all_arrivals .arr_list li:first-child, .all_arrivals .arr_list li:last-child {
+    display:  none;
+  }
+  .all_arrivals .arr_list li {
+    width:  50%;
+    padding: 20px;
+  }
+  .all_arrivals .container {
+    padding: 0;
+  }
+  .all_arrivals .arr_list h4 {
+    margin: 10px 0;
+  }
+  .foot_contacts .container .contacts > p {
+    display: none;
+  }
+  .foot_contacts .container .links, .foot_contacts .container .contacts {
+    width: 100%;
+  }
+  .foot_contacts .container .contacts .contacts_l, .foot_contacts .container .contacts .contacts_r {
+    width:  50%;
+    float:  left;
+  }
+  .foot_contacts .container {
+    padding: 0 10px;
+  }
+  footer .container .bot_nav, footer .container p, footer .container .bot_nav li {
+    width:  50%;
+    text-align:   center; 
+  }
+}
